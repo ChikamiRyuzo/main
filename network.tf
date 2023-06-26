@@ -16,7 +16,7 @@
 # }
 
 resource "aws_vpc" "tf-vpc" {
-   cidr_block = var.cidr_block
+    cidr_block = var.cidr_block
   tags = {
     "Name" = "${var.Name}-tf-vpc"
   }
